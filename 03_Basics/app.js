@@ -16,3 +16,6 @@ var user = {
     college: "Niels Brock"
 };
 console.log("My name is ".concat(user.name));
+function greet(user) {
+    console.log("My name is ".concat(user.name));
+}
