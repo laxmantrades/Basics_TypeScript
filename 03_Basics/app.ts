@@ -52,3 +52,7 @@ const user:User={
     college:"Niels Brock"
 }
 console.log(`My name is ${user.name}`);
+
+function greet(user:User){
+  console.log(`My name is ${user.name}`);
+}
