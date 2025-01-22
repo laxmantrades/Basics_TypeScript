@@ -14,4 +14,4 @@ add(n1, n2, printResult, someText);
 function multiply(n1, n2) {
     return n1 * n2;
 }
-console.log(multiply(4, "4"));
+console.log(multiply(4, 4));

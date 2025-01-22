@@ -16,8 +16,7 @@ const printResult = true;
 const someText = "The result is :";
 add(n1, n2, printResult, someText);
 
-function multiply(n1:number,n2:number){
-    return n1*n2
+function multiply(n1: number, n2: number) {
+  return n1 * n2;
 }
-console.log(multiply(4,4));
-
+console.log(multiply(4, 4));
