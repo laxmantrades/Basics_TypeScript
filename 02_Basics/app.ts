@@ -31,7 +31,7 @@ const personone: {
   name: string;
   age: number;
   skills: string[];
-  product:[number,string]
+  product:[number,string]//this is tuple
 } = {
   name: "laxman",
   age: 23,

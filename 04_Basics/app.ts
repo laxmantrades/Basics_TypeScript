@@ -21,7 +21,7 @@ function greet(user:string):void{
 greet("laxman")
 
 
-//neer use function because we don't know what function takes
+//never use function because we don't know what function takes
 //bad practise
 //let combineFunction:Function
 

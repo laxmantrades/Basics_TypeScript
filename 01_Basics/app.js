@@ -1,15 +1,16 @@
+"use strict";
 function add(number1, number2, printResult, someText) {
     if (printResult) {
-        console.log("".concat(someText) + number1 + number2);
+        console.log(`${someText}` + number1 + number2);
     }
     else {
         console.log("Print is false");
     }
 }
-var n1 = 30;
-var n2 = 30;
-var printResult = true;
-var someText = "The result is :";
+const n1 = 30;
+const n2 = 30;
+const printResult = true;
+const someText = "The result is :";
 add(n1, n2, printResult, someText);
 function multiply(n1, n2) {
     return n1 * n2;

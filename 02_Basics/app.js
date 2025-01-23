@@ -1,5 +1,6 @@
+"use strict";
 //object arrat tuple enum
-var person = {
+const person = {
     firstName: "Laxman",
     age: 23,
     boy: true,
@@ -10,11 +11,11 @@ var person = {
     },
 };
 //console.log(person);
-var favouritelanguage;
+let favouritelanguage;
 favouritelanguage = ["React", "react"];
 favouritelanguage[1] = "laxman";
 //tuple
-var personone = {
+const personone = {
     name: "laxman",
     age: 23,
     skills: ["backend"],
@@ -27,7 +28,7 @@ var Role;
     Role[Role["admin"] = 0] = "admin";
     Role[Role["author"] = 1] = "author";
 })(Role || (Role = {}));
-var personthree = {
+const personthree = {
     name: "Laxman",
     role: Role.admin
 };

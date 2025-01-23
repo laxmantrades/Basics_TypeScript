@@ -1,3 +1,4 @@
+"use strict";
 //if sring return then string
 function add(num1, num2) {
     return num1 + num2.toString();
@@ -13,7 +14,7 @@ function greet(user) {
     console.log("Hi" + user);
 }
 greet("laxman");
-//neer use function because we don't know what function takes
+//never use function because we don't know what function takes
 //bad practise
 //let combineFunction:Function
 // combineFunction=function(){}
@@ -22,14 +23,14 @@ greet("laxman");
 //combineFunction=greet
 //console.log(combineFunction(4,5)); //undefined because greet returns array
 "good parctise";
-var combineFunction;
+let combineFunction;
 combineFunction = combine;
 console.log(combineFunction(1, 2));
 function multiply(num1, num2, cb) {
-    var result = num1 + num2;
+    const result = num1 + num2;
     return cb(result, "This is a result");
 }
-var res = multiply(4, 6, function (resul, tex) {
+const res = multiply(4, 6, (resul, tex) => {
     return tex + resul;
 });
 console.log(res);
